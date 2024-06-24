@@ -89,24 +89,24 @@ box-shadow: 0px 0px 33px 1px rgb(67, 17, 90);
   .crypto__container {
   width: 60%;
   }
-  .title {
+.mainPage__title {
   font-size: 50px;
   }
 }
 
 
 @media(max-width: 450px){
-.subtitle{
+.mainPage__subtitle{
   font-size: 17px;
 }
-.title {
+.mainPage__title {
   font-size: 27px;
   margin-bottom: 0;
 }
-.button__container{
+.mainPage__input{
   margin-top:0;
 }
-.button__container input::placeholder {
+.mainPage__input input::placeholder {
   font-size:14px;
 }
 .crypto__container {
@@ -115,14 +115,14 @@ box-shadow: 0px 0px 33px 1px rgb(67, 17, 90);
 }
 
 @media(max-width: 360px){
-.subtitle{
+.mainPage__subtitle{
   font-size: 15px;
 }
-.title {
+.mainPage__title {
   font-size: 25px;
   margin-bottom: 0;
 }
-.button__container input{
+.mainPage__input input{
   width: 250px;
 }
 }
