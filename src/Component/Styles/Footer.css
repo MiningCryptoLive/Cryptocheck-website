@@ -47,6 +47,7 @@ a{
 @media(max-width: 440px){
      footer{
         flex-direction: column;
+        justify-content: center;
         row-gap: 0.5em;
         font-size:14px;
     }
