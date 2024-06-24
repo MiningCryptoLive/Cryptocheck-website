@@ -1,0 +1,128 @@
+.mainPage__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.mainPage__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.mainPage__subtitle{
+  font-size: 20px;
+  font-weight: 100;
+  color: rgb(210, 210, 210);
+}
+.mainPage__title {
+  background-image: linear-gradient(180deg,#C99EB8, #C99EB8, #FC5CB2, #4702B1, #4702B1);
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 0.5em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.mainPage__input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2%;
+}
+.mainPage__input input {
+  padding: 0.5em 0.8em;
+  margin-bottom: 3em;
+  width: 280px;
+  height: 40px;
+  background-color:hsl(281, 38%, 21%);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  text-transform: uppercase;
+  color: rgb(156, 156, 156);
+  font-weight: 500;
+  font-size: 15px;
+  -webkit-box-shadow: 0px 0px 33px 1px rgb(67, 17, 90);
+-moz-box-shadow: 0px 0px 33px 1px rgb(67, 17, 90);
+box-shadow: 0px 0px 33px 1px rgb(67, 17, 90);
+}
+.mainPage__input input::placeholder {
+  color: rgb(156, 156, 156);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.mainPage__input  input:focus {
+  outline: none;
+  transform: scale(1.05);
+}
+.mainPage__input  input:hover {
+  transform: scale(1.05);
+  transition: all ease-in-out 0.2s;
+}
+.crypto__container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8em;
+}
+.crypto__container hr{
+  width: 95%;
+  margin: 0 auto;
+}
+.loadingMssg {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  padding: 1em;
+ 
+}
+
+@media(max-width: 969px){
+  .crypto__container {
+  width: 700px;
+}
+}
+
+@media(max-width: 740px){
+  .crypto__container {
+  width: 60%;
+  }
+  .title {
+  font-size: 50px;
+  }
+}
+
+
+@media(max-width: 450px){
+.subtitle{
+  font-size: 17px;
+}
+.title {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.button__container{
+  margin-top:0;
+}
+.button__container input::placeholder {
+  font-size:14px;
+}
+.crypto__container {
+  width: 80%;
+}
+}
+
+@media(max-width: 360px){
+.subtitle{
+  font-size: 15px;
+}
+.title {
+  font-size: 45px;
+  margin-bottom: 0;
+}
+.button__container input{
+  width: 250px;
+}
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Varela Round", sans-serif;
+}
+
+body{
+  position: relative;
+  background: radial-gradient(800px 200px at top center, hsl(299, 94%, 25%), hsl(281, 68%, 21%), black);  
+  background-color: black;
+  background-repeat: no-repeat;
+  display: flex;
+    flex-direction: column;
+  min-height: 100svh;
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+
