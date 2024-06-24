@@ -42,7 +42,7 @@ function Home() {
     <div className="mainPage__container">
       <div className="mainPage__header">
         <p className="mainPage__subtitle">Welcome to</p>
-        <h1 className="mainPage__title">CryptoCheck</h1>
+        <p className="mainPage__title">CryptoCheck</p>
       </div>
       <div className="mainPage__input">
         <input
