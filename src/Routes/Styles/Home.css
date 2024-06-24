@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  min-height: 100vsh;
 }
 .mainPage__header {
   display: flex;
@@ -100,7 +100,7 @@ box-shadow: 0px 0px 33px 1px rgb(67, 17, 90);
   font-size: 17px;
 }
 .title {
-  font-size: 40px;
+  font-size: 27px;
   margin-bottom: 0;
 }
 .button__container{
