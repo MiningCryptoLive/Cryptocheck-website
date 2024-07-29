@@ -1,53 +1,50 @@
 .coinPage__container{
-  background-image: radial-gradient(circle,hsl(299, 94%, 25%), hsl(281, 68%, 21%), black);
-  height: 100svh;
-  display: flex;
   align-items: center;
+  background-image: radial-gradient(circle,hsl(299, 94%, 25%), hsl(281, 68%, 21%), black);
+  display: flex;
+  height: 100svh;
   justify-content: center;
   margin: 0;
   padding: 0;
 }
 .coinInfo__container{
+  align-items: center;
+  background-color: hsl(281, 38%, 21%);
+  border-radius: 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width:30%;
   padding: 1.5em;
-  border-radius: 1em;
-  background-color: hsl(281, 38%, 21%); 
+  width:30%;
 }
 h1 {
+  background-color: transparent;
+  color: hsl(250, 94%, 75%);
   font-size: 40px;
+  font-weight: 700;
   margin: 0.3em;
   text-transform: uppercase;
-  font-weight: 700;
-  color: hsl(250, 94%, 75%);
-  background-color: transparent;
 }
 .coinPage__row {
+  align-items: center;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
-  width: 90%;
-  align-items: center;
   margin: 0.5em 0em 0.5em 0em;
-  background-color: transparent;
+  width: 90%;
 }
-
 .coinPage__rowData {
+  background-color: transparent;
   color: white;
   font-size: 16px;
   font-weight: 400;
-  background-color: transparent;
-
 }
-
 .coinPage__rowHeader {
-  width: 170px;
-  font-size: 20px;
-  color: white;
-  font-weight: 600;
   background-color: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  width: 170px;
 }
 .red {
   color: #ef3850;
@@ -58,20 +55,20 @@ h1 {
   text-shadow: #4bd74b 0 0 1em;
 }
 .coinPage__button {
-  display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top:1em;
-  height: 30px;
-  width: 300px;
-  padding: 0px 0.8em 0px 0.8em;
   background-image: linear-gradient(180deg, #FC5CB2, #4702B1);
   border: none;
   border-radius: 0.8em;
   color: white;
-  font-weight: 500;
-  font-size: 15px;
   cursor: pointer;
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+  height: 30px;
+  justify-content: center;
+  margin-top:1em;
+  padding: 0px 0.8em 0px 0.8em;  
+  width: 300px;
 }
 .coinPage__button:hover {
   transform: scale(1.1);
@@ -91,7 +88,7 @@ h1 {
 }
 @media(max-width: 1190px){
   .coinPage__row {
-  width: 100%;
+    width: 100%;
   }
 }
 @media(max-width: 970px){
@@ -108,14 +105,14 @@ h1 {
     font-size: 30px;
   }
   .coinPage__rowData {
-    text-align: center;
-    margin-top: 0.3em;
     font-size: 16px;
+    margin-top: 0.3em;
+    text-align: center;
   }
   .coinPage__rowHeader{
-    text-align: center;
-    margin-top: 0.3em;
     font-size: 18px;
+    margin-top: 0.3em;
+    text-align: center;
   }
   .coinPage__button {
     width: 200px;
@@ -135,14 +132,14 @@ h1 {
     font-size: 30px;
   }
   .coinPage__rowData {
-    text-align: center;
-    margin-top: 0.3em;
     font-size: 16px;
+    margin-top: 0.3em;
+    text-align: center;
   }
   .coinPage__rowHeader{
-    text-align: center;
-    margin-top: 0.3em;
     font-size: 18px;
+    margin-top: 0.3em;
+    text-align: center;
   }
   .coinPage__button {
     width: 150px;
@@ -162,14 +159,14 @@ h1 {
     font-size: 28px;
   }
   .coinPage__rowData {
-    text-align: center;
-    margin-top: 0.3em;
     font-size: 14px;
+    margin-top: 0.3em;
+    text-align: center;
   }
   .coinPage__rowHeader{
-    text-align: center;
-    margin-top: 0.3em;
     font-size: 16px;
+    margin-top: 0.3em;
+    text-align: center;
   }
   .coinPage__button {
     width: 150px;
