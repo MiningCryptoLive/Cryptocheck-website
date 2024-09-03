@@ -5,57 +5,55 @@
   background-color:hsl(220, 14%, 9%);
 }
 .coin__row {
+  align-items: center;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
-  background-color: transparent;
 }
 .coinData {
-  width: 100%;
-  display: flex;
   align-items: center;
-  justify-content: center;
   background-color: transparent;
+  display: flex;
+  justify-content: center;
   padding:1.5em 2em;
+  width: 100%;
 }
 .coin {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 .coin h1 {
-  font-size: 18px;
-  width: 150px;
   color: white;
-  text-align: left;
+  font-size: 18px;
   margin-left: 1.5em;
+  text-align: left;
+  width: 150px;
 }
 .coin img {
   height: 50px;
-  width: 50px;
   margin-right: 1em;
+  width: 50px;
 }
 .coinSymbol {
-  text-transform: uppercase;
-  font-size: 16px;
   color: white;
-  text-align: left;
+  font-size: 16px;
   margin-left: 0.5em;
   margin-right: 2em;
+  text-align: left;
+  text-transform: uppercase;
   width: 50px;
 }
 .coinPrice {
-  font-size: 16px;
   color: white;
-  text-align: left;
+  font-size: 16px;
   margin-left: 1em;
   text-align: left;
   width: 100px;
 }
 .coinVolume {
-  font-size: 16px;
   color: white;
-  text-align: left;
+  font-size: 16px;
   margin-left: 2em;
   text-align: left;
   white-space: nowrap;
@@ -63,8 +61,8 @@
 
 .coinData {
   display: flex;
-  text-align: right;
   justify-content: space-between;
+  text-align: right;
   width: 100%;
 }
 
@@ -76,9 +74,9 @@
   width: 155px;
 }
 .priceChange {
-  width: 90px;
   font-size: 16px;
   text-align: right;
+  width: 90px;
 }
 
 .red {
@@ -92,17 +90,17 @@
 }
 
 .coin button {
-  margin-left: 1.5em;
-  height: 30px;
-  width: 100px;
-  padding: 0px 0.8em 0px 0.8em;
   background-image: linear-gradient(180deg, #FC5CB2, #4702B1);
   border: none;
   border-radius: 0.8em;
   color: white;
-  font-weight: 500;
-  font-size: 15px;
   cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  height: 30px;
+  margin-left: 1.5em;
+  padding: 0px 0.8em 0px 0.8em;
+  width: 100px;
 }
 
 .coin button:hover {
@@ -123,8 +121,8 @@
 }
 .coin img {
   height: 30px;
-  width: 30px;
   margin-right: 1em;
+  width: 30px;
 }
 .coinSymbol {
   font-size: 13px;
@@ -132,14 +130,14 @@
 }
 .coinPrice {
   font-size: 13px;
-  width: 80px;
   margin-left:0;
+  width: 80px;
 }
 
 .coinVolume {
-  width: 80px;
   font-size: 13px;
   margin-right: 0em;
+  width: 80px;
 }
 
 .coin button {
@@ -157,47 +155,46 @@
 }
 .coin {
   flex-direction: column;
-  width: 100%;
   position: relative;
+  width: 100%;
 }
 .coin h1 {
   font-size: 21px;
-  width: 100%;
-  margin-left: 0;
   margin-bottom: 0.5em;
+  margin-left: 0;
+  width: 100%;
 }
 .coin img {
+  height: 55px;
+  margin-right:0;
   position: absolute;
   right:0;
-  height: 55px;
   width: 55px;
-  margin-right:0;
 }
 .coinSymbol {
   font-size: 16px;
-  width: 100%;
+  margin-bottom: 0.3em;
   margin-left: 0;
   margin-right: 0;
-  margin-bottom: 0.3em;
   width: 100%;
 }
 .coinPrice {
   font-size: 16px;
-  width: 100%;
-  margin-left:0;
   margin-bottom: 0.3em;
+  margin-left:0;
+  width: 100%;
 }
 .priceChange {
-  width: 100%;
   font-size: 16px;
-  text-align: left;
   margin-bottom: 0.3em;
+  text-align: left;
+  width: 100%;
 }
 .coinVolume {
-  width: 100%;
   font-size: 16px;
-  margin-left: 0;
   margin-bottom: 0.8em;
+  margin-left: 0;
+  width: 100%;
 }
 .coin button {
   margin: 0;
