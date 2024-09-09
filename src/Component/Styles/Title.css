@@ -1,0 +1,29 @@
+.titlesSection{
+    background: linear-gradient(25deg in hsl shorter hue, var(--black) 85%, var(--blue), var(--orange));
+}
+.titlSection{
+    padding-left: 3%;
+    padding-top: 3%;
+    width: 100%;
+}
+.title{
+    font-size: 16px;
+}
+.titlSecSection{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3%;
+}
+.secondTitle{
+    font-size: 36px;
+    margin-bottom: 0.5em;
+    text-align: center;
+    width:100%;
+}
+.subTitle{
+    color: rgba(255, 255, 255, 0.689);
+    padding: 0 12em;
+    text-align: center;
+}
