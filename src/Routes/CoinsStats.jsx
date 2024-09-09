@@ -46,7 +46,7 @@ export default function CoinsStats() {
         className="inputSearch"
       ></input>
       <div className="crypto__section">
-        {props.isLoading && <h1 className="loadingMssg">Data Loading...</h1>}
+        {isLoading && <h1 className="loadingMssg">Data Loading...</h1>}
         {filterCoins.map((coins) => {
           return (
             <>
