@@ -1,3 +1,3 @@
 UNFINISHED<br/>
 Project: CryptoCheck🪙<br/>
-Link: [CryptoCheck](cryptochecklauraglab.netlify.app)
+Link: [CryptoCheck](https://cryptochecklauraglab.netlify.app/)
