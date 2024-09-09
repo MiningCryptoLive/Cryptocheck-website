@@ -1,17 +1,20 @@
-import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./Routes/Home.jsx";
 import CoinPage from "./Routes/CoinPage";
+import CoinsStats from "./Routes/CoinsStats.jsx";
+import Footer from "./Component/Footer.jsx"
+import Title from "./Component/Title.jsx";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/CoinPage/:id" element={<CoinPage />} />
-        <Route path="/" element={<Home />} exact />
-      </Routes>
-    </Router>
-);
-}
-
-export default App;
+    <div className="App">
+      <Title />
+      <Router>
+        <Routes>
+          <Route path="/CoinPage/:id" element={<CoinPage />} />
+          <Route path="/" element={<CoinsStats />} exact />
+        </Routes>
+      </Router>
+      <Footer/>
+    </div>
+  );
