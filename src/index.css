@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+* {
+  --black: hsl(0, 0%, 0%);
+  --blue: hsl(240, 73%, 61%);
+  --dark-blue: hsl(213, 74%, 50%);
+  --gray: hsla(0, 0%, 100%, 0.689);;
+  --lemon: hsl(122, 100%, 50%);
+  --orange: hsl(22, 69%, 60%);
+  --pink: hsl(328, 40%, 54%);
+  --white: hsl(0, 0%, 92%);
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+html{
+  width: 100%;
+}
+body{
+  background-color: black;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  min-width: 250px;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
