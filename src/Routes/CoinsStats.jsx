@@ -1,10 +1,9 @@
-import React from "react";
-import "./Styles/Home.css";
 import { useState, useEffect } from "react";
 import Coin from "./../Component/Coin.jsx";
 import Footer from "./../Component/Footer.jsx";
+import "./Styles/CoinsStats.css";
 
-function Home() {
+export default function CoinsStats() {
   const [coins, setCoins] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -22,7 +21,7 @@ function Home() {
 
       setIsLoading(true);
       fetch(
-        "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false", {
+        "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=true", {
           signal: controller.signal
         })
         .then((res) => {
@@ -39,20 +38,15 @@ function Home() {
 
 
   return (
-    <div className="mainPage__container">
-      <div className="mainPage__header">
-        <p className="mainPage__subtitle">Welcome to</p>
-        <p className="mainPage__title">CryptoCheck</p>
-      </div>
-      <div className="mainPage__input">
-        <input
-          type="text"
-          placeholder="Search the coin..."
-          onChange={searchCoin}
-        ></input>
-      </div>
-      <div className="crypto__container">
-        {isLoading && <h1 className="loadingMssg">Data Loading...</h1>}
+    <div className="coinsStatsSection">
+      <input
+        type="text"
+        placeholder="Search the coin..."
+        onChange={searchCoin}
+        className="inputSearch"
+      ></input>
+      <div className="crypto__section">
+        {props.isLoading && <h1 className="loadingMssg">Data Loading...</h1>}
         {filterCoins.map((coins) => {
           return (
             <>
@@ -65,15 +59,15 @@ function Home() {
                 price={coins.current_price}
                 marketCap={coins.market_cap}
                 priceChange={coins.price_change_percentage_24h}
+                sparkline={coins.sparkline_in_7d.price}
               />
-
             </>
           );
         })}
       </div>
-      <Footer />
+      <Footer/>
     </div>
   );
 }
 
-export default Home;
+
