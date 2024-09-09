@@ -3,7 +3,7 @@ import CoinPage from "./Routes/CoinPage";
 import CoinsStats from "./Routes/CoinsStats.jsx";
 import Footer from "./Component/Footer.jsx"
 import Title from "./Component/Title.jsx";
-import "./App.css";
+import "./index.css";
 
 export default function App() {
   return (
