@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import { SparkLineChart } from "@mui/x-charts";
 import "./Styles/Coin.css";
 
 export default function Coin(props) {
@@ -20,7 +19,6 @@ export default function Coin(props) {
             <p className="coinName">{props.coinName}</p>
           </div>
           <div>
-            <SparkLineChart data={props.sparkline} height={100} />
           </div>
         </div>
 
