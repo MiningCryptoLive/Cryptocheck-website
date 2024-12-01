@@ -1,0 +1,37 @@
+.mainTitle__section{
+    position: relative;
+    z-index: 9;
+}
+.mainTitle__content{
+    padding-left: 3%;
+    padding-top: 3%;
+    width: 100%;
+}
+.mainTitle{
+    font-size: 16px;
+}
+
+@media (max-width: 520px){
+    .mainTitle__section{
+        position: relative;
+        z-index: 9;
+    }
+    .mainTitle{
+        font-size: 14px;
+    }
+}
+
+/*mobile*/
+@media (max-width: 435px){
+    .mainTitle__section{
+        height: 10svh;
+    }
+    .mainTitle__content{
+        padding-left: 3%;
+        padding-top: 6%;
+        width: auto;
+    }
+    .mainTitle{
+        font-size: 20px;
+    }
+}

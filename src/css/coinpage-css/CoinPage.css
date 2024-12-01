@@ -1,0 +1,100 @@
+.coinPage{
+    display: grid;
+    grid-template-columns: 42% 53%;
+    height: 70svh;
+    margin-bottom: 4rem;
+    padding: 2% 3% 0;
+    column-gap: 5%;
+}
+.coinPageFirst__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.coinPageSecond__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.coinPageBackBtn__section, .coinPageTitle__section, .coinPagePrice__section{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.coinPageTitle__section, .coinPagePrice__section{
+    width: 100%;
+}
+.infoIcon{
+    height: 20px;
+    margin-left: 0.3rem;
+    width: 20px;
+}
+.learnMore {
+    display: none;
+}
+.infoIcon:hover + .learnMore{
+    background-color: var(--gray);
+    display: block;
+    color: var(--white);
+    font-size: 14px;
+    padding: 0.5rem;
+    position: absolute;
+    width: 300px;
+    z-index: 999;
+}
+.learnMore span{
+    font-weight: 700;
+}
+
+@media (max-width: 1050px){
+    .coinPage{
+        display: block;
+        padding: 2% 3%;
+    }
+}
+
+@media (max-width: 1015px){
+    .coinPage{
+        align-items: center;
+        border-top: 1px solid var(--border-color);
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        margin-top: 1rem;
+        padding: 2% 0;
+    }
+    .coinPageFirst__section, .coinPageSecond__section{
+        width: 720px;
+    }
+}
+
+@media (max-width: 768px){
+    .coinPageFirst__section, .coinPageSecond__section{
+        width: 500px;
+    }
+}
+
+@media (max-width: 520px){
+    .coinPageFirst__section, .coinPageSecond__section{
+        width: 350px;
+    }
+}
+
+/*mobile*/
+@media (max-width: 435px){
+    .coinPage{
+        margin-top: 0;
+    }
+    .coinPageFirst__section, .coinPageSecond__section{
+        width: 95%;
+    }
+
+    .coinPageTitle__section{
+        align-items: center;
+        flex-direction: column;
+        text-align: left;
+    }
+    
+}
