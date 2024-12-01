@@ -121,5 +121,3 @@ export default function CoinPage() {
       </div>
     );
   } 
-}
-
