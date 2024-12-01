@@ -9,16 +9,18 @@ import CoinPagePrice from "./coinpage-sections/CoinPagePrice.jsx";
 import CoinPageChange from "./coinpage-sections/CoinPageChange.jsx";
 import CoinPageSparkline from "./coinpage-sections/CoinPageSparkline.jsx";
 import CoinPageTitle from "./coinpage-sections/CoinPageTitle.jsx";
+import Loading from "./../components/Loading.jsx";
 import "./../css/coinpage-css/CoinPage.css";
 
 export default function CoinPage() {
   let { id } = useParams();
   const [coin, setCoin] = useState(null);
   const [currency, setCurrency] = useState("USD");
+  const [isLoading, setIsLoading] = useState(false);
   
-
   useEffect(() => {
     const controller = new AbortController();
+    setIsLoading(true);
     fetch(`https://api.coingecko.com/api/v3/coins/${id}?sparkline=true`, {
       signal: controller.signal,
     })
@@ -26,6 +28,7 @@ export default function CoinPage() {
         return res.json();
       })
       .then((data) => {
+        setIsLoading(false);
         setCoin(data);
       })
       .catch(error => {
@@ -45,6 +48,7 @@ export default function CoinPage() {
   if (coin !== null) {
     return (
       <div className="coinPage">
+        {isLoading && <Loading />}
         <div className="coinPageFirst__section">
             <CoinPageBtn
               currency={currency}
