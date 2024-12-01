@@ -1,8 +1,8 @@
 .coinPage{
     display: grid;
     grid-template-columns: 42% 53%;
-    height: 70svh;
     margin-bottom: 4rem;
+    min-height: 70svh;
     padding: 2% 3% 0;
     column-gap: 5%;
 }
