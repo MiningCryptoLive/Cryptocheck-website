@@ -45,7 +45,7 @@ export default function CoinPage() {
     
   }, []);
 
-  if (loading) {
+  if (isLoading) {
     return <Loading />; // Render loading component
   }
 
