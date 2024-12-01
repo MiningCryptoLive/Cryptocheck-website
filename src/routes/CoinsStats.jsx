@@ -48,8 +48,10 @@ export default function CoinsStats() {
     coin.name.toUpperCase().includes(searchTerm.toUpperCase())
   );
 
-   
- if (coins !== null) {
+   if (coins === null) {
+     return <Error/>;
+   }
+
    return (
      <>
        <div className="bckgr"></div>
@@ -124,7 +126,5 @@ export default function CoinsStats() {
        </div>
      </>
    );
- } else {
-   return <Error />;
- }
+ } 
 }
