@@ -45,10 +45,16 @@ export default function CoinPage() {
     
   }, []);
 
-  if (coin !== null) {
+  if (loading) {
+    return <Loading />; // Render loading component
+  }
+
+  if (coin === null) {
+    return <Error/>; // Render error component
+  }
+  
     return (
       <div className="coinPage">
-        {isLoading && <Loading />}
         <div className="coinPageFirst__section">
             <CoinPageBtn
               currency={currency}
@@ -114,8 +120,6 @@ export default function CoinPage() {
         </div>
       </div>
     );
-  } else {
-    return <Error/>;
-  }
+  } 
 }
 
