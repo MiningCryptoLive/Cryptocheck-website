@@ -24,30 +24,18 @@ export default function CoinPageInfo({currency, market_cap,fully_diluted_valuati
             (athValue = <>${ath.usd.toLocaleString()}</>),
             (athPercent = (
               <>
-                {ath_change_percentage.usd.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {ath_change_percentage.usd.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{ath_change_percentage.usd.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceRed">
+                  {ath_change_percentage.usd.toFixed(2)}%
+                </p>
               </>
             )),
             (athDate = <>{ath_date.usd.slice(0, 10)}</>),
             (atlValue = <>${atl.usd.toLocaleString()}</>),
             (atlPercent = (
               <>
-                {atl_change_percentage.usd.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {atl_change_percentage.usd.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{atl_change_percentage.usd.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceGreen">
+                  +{atl_change_percentage.usd.toFixed(2)}%
+                </p>
               </>
             )),
             (atlDate = <>{atl_date.usd.slice(0, 10)}</>)
@@ -59,30 +47,18 @@ export default function CoinPageInfo({currency, market_cap,fully_diluted_valuati
             (athValue = <>€{ath.eur.toLocaleString()}</>),
             (athPercent = (
               <>
-                {ath_change_percentage.eur.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {ath_change_percentage.eur.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{ath_change_percentage.eur.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceRed">
+                  {ath_change_percentage.eur.toFixed(2)}%
+                </p>
               </>
             )),
             (athDate = <>{ath_date.eur.slice(0, 10)}</>),
             (atlValue = <>€{atl.eur.toLocaleString()}</>),
             (atlPercent = (
               <>
-                {atl_change_percentage.eur.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {atl_change_percentage.eur.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{atl_change_percentage.eur.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceGreen">
+                  +{atl_change_percentage.eur.toFixed(2)}%
+                </p>
               </>
             )),
             (atlDate = <>{atl_date.eur.slice(0, 10)}</>)
@@ -94,30 +70,18 @@ export default function CoinPageInfo({currency, market_cap,fully_diluted_valuati
             (athValue = <>CN¥{ath.cny.toLocaleString()}</>),
             (athPercent = (
               <>
-                {ath_change_percentage.cny.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {ath_change_percentage.cny.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{ath_change_percentage.cny.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceRed">
+                  {ath_change_percentage.cny.toFixed(2)}%
+                </p>
               </>
             )),
             (athDate = <>{ath_date.cny.slice(0, 10)}</>),
             (atlValue = <>CN¥{atl.cny.toLocaleString()}</>),
             (atlPercent = (
               <>
-                {atl_change_percentage.cny.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {atl_change_percentage.cny.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{atl_change_percentage.cny.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceGreen">
+                  +{atl_change_percentage.cny.toFixed(2)}%
+                </p>
               </>
             )),
             (atlDate = <>{atl_date.cny.slice(0, 10)}</>)
@@ -129,30 +93,18 @@ export default function CoinPageInfo({currency, market_cap,fully_diluted_valuati
             (athValue = <>¥{ath.jpy.toLocaleString()}</>),
             (athPercent = (
               <>
-                {ath_change_percentage.jpy.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {ath_change_percentage.jpy.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{ath_change_percentage.jpy.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceRed">
+                  {ath_change_percentage.jpy.toFixed(2)}%
+                </p>
               </>
             )),
             (athDate = <>{ath_date.jpy.slice(0, 10)}</>),
             (atlValue = <>¥{atl.jpy.toLocaleString()}</>),
             (atlPercent = (
               <>
-                {atl_change_percentage.jpy.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {atl_change_percentage.jpy.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{atl_change_percentage.jpy.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceGreen">
+                  +{atl_change_percentage.jpy.toFixed(2)}%
+                </p>
               </>
             )),
             (atlDate = <>{atl_date.jpy.slice(0, 10)}</>)
@@ -164,30 +116,18 @@ export default function CoinPageInfo({currency, market_cap,fully_diluted_valuati
             (athValue = <>£{ath.gbp.toLocaleString()}</>),
             (athPercent = (
               <>
-                {ath_change_percentage.gbp.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {ath_change_percentage.gbp.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{ath_change_percentage.gbp.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceRed">
+                  {ath_change_percentage.gbp.toFixed(2)}%
+                </p>
               </>
             )),
             (athDate = <>{ath_date.gbp.slice(0, 10)}</>),
             (atlValue = <>£{atl.gbp.toLocaleString()}</>),
             (atlPercent = (
               <>
-                {atl_change_percentage.gbp.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {atl_change_percentage.gbp.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{atl_change_percentage.gbp.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceGreen">
+                  +{atl_change_percentage.gbp.toFixed(2)}%
+                </p>
               </>
             )),
             (atlDate = <>{atl_date.gbp.slice(0, 10)}</>)
@@ -199,30 +139,18 @@ export default function CoinPageInfo({currency, market_cap,fully_diluted_valuati
             (athValue = <>A${ath.aud.toLocaleString()}</>),
             (athPercent = (
               <>
-                {ath_change_percentage.aud.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {ath_change_percentage.aud.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{ath_change_percentage.aud.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceRed">
+                  {ath_change_percentage.aud.toFixed(2)}%
+                </p>
               </>
             )),
             (athDate = <>{ath_date.aud.slice(0, 10)}</>),
             (atlValue = <>A${atl.aud.toLocaleString()}</>),
             (atlPercent = (
               <>
-                {atl_change_percentage.aud.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {atl_change_percentage.aud.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{atl_change_percentage.aud.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceGreen">
+                  +{atl_change_percentage.aud.toFixed(2)}%
+                </p>
               </>
             )),
             (atlDate = <>{atl_date.aud.slice(0, 10)}</>)
@@ -234,30 +162,18 @@ export default function CoinPageInfo({currency, market_cap,fully_diluted_valuati
             (athValue = <>CA${ath.cad.toLocaleString()}</>),
             (athPercent = (
               <>
-                {ath_change_percentage.cad.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {ath_change_percentage.cad.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{ath_change_percentage.cad.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceRed">
+                  {ath_change_percentage.cad.toFixed(2)}%
+                </p>
               </>
             )),
             (athDate = <>{ath_date.cad.slice(0, 10)}</>),
             (atlValue = <>CA${atl.cad.toLocaleString()}</>),
             (atlPercent = (
               <>
-                {atl_change_percentage.cad.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {atl_change_percentage.cad.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{atl_change_percentage.cad.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceGreen">
+                  +{atl_change_percentage.cad.toFixed(2)}%
+                </p>
               </>
             )),
             (atlDate = <>{atl_date.cad.slice(0, 10)}</>)
@@ -269,30 +185,18 @@ export default function CoinPageInfo({currency, market_cap,fully_diluted_valuati
             (athValue = <>CHF {ath.chf.toLocaleString()}</>),
             (athPercent = (
               <>
-                {ath_change_percentage.chf.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {ath_change_percentage.chf.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{ath_change_percentage.chf.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceRed">
+                  {ath_change_percentage.chf.toFixed(2)}%
+                </p>
               </>
             )),
             (athDate = <>{ath_date.chf.slice(0, 10)}</>),
             (atlValue = <>CHF {atl.chf.toLocaleString()}</>),
             (atlPercent = (
               <>
-                {atl_change_percentage.chf.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {atl_change_percentage.chf.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{atl_change_percentage.chf.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceGreen">
+                  +{atl_change_percentage.chf.toFixed(2)}%
+                </p>
               </>
             )),
             (atlDate = <>{atl_date.chf.slice(0, 10)}</>)
@@ -304,30 +208,18 @@ export default function CoinPageInfo({currency, market_cap,fully_diluted_valuati
             (athValue = <>₩{ath.krw.toLocaleString()}</>),
             (athPercent = (
               <>
-                {ath_change_percentage.krw.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {ath_change_percentage.krw.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{ath_change_percentage.krw.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceRed">
+                  {ath_change_percentage.krw.toFixed(2)}%
+                </p>
               </>
             )),
             (athDate = <>{ath_date.krw.slice(0, 10)}</>),
             (atlValue = <>₩{atl.krw.toLocaleString()}</>),
             (atlPercent = (
               <>
-                {atl_change_percentage.krw.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {atl_change_percentage.krw.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{atl_change_percentage.krw.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceGreen">
+                  +{atl_change_percentage.krw.toFixed(2)}%
+                </p>
               </>
             )),
             (atlDate = <>{atl_date.krw.slice(0, 10)}</>)
@@ -339,30 +231,18 @@ export default function CoinPageInfo({currency, market_cap,fully_diluted_valuati
             (athValue = <>S${ath.sgd.toLocaleString()}</>),
             (athPercent = (
               <>
-                {ath_change_percentage.sgd.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {ath_change_percentage.sgd.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{ath_change_percentage.sgd.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceRed">
+                  {ath_change_percentage.sgd.toFixed(2)}%
+                </p>
               </>
             )),
             (athDate = <>{ath_date.sgd.slice(0, 10)}</>),
             (atlValue = <>S${atl.sgd.toLocaleString()}</>),
             (atlPercent = (
               <>
-                {atl_change_percentage.sgd.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {atl_change_percentage.sgd.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{atl_change_percentage.sgd.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceGreen">
+                  +{atl_change_percentage.sgd.toFixed(2)}%
+                </p>
               </>
             )),
             (atlDate = <>{atl_date.sgd.slice(0, 10)}</>)
@@ -374,30 +254,18 @@ export default function CoinPageInfo({currency, market_cap,fully_diluted_valuati
             (athValue = <>PLN {ath.pln.toLocaleString()}</>),
             (athPercent = (
               <>
-                {ath_change_percentage.pln.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {ath_change_percentage.pln.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{ath_change_percentage.pln.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceRed">
+                  {ath_change_percentage.pln.toFixed(2)}%
+                </p>
               </>
             )),
             (athDate = <>{ath_date.pln.slice(0, 10)}</>),
             (atlValue = <>PLN {atl.pln.toLocaleString()}</>),
             (atlPercent = (
               <>
-                {atl_change_percentage.pln.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {atl_change_percentage.pln.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{atl_change_percentage.pln.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceGreen">
+                  +{atl_change_percentage.pln.toFixed(2)}%
+                </p>
               </>
             )),
             (atlDate = <>{atl_date.pln.slice(0, 10)}</>)
@@ -409,30 +277,18 @@ export default function CoinPageInfo({currency, market_cap,fully_diluted_valuati
             (athValue = <>${ath.usd.toLocaleString()}</>),
             (athPercent = (
               <>
-                {ath_change_percentage.usd.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {ath_change_percentage.usd.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{ath_change_percentage.usd.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceRed">
+                  {ath_change_percentage.usd.toFixed(2)}%
+                </p>
               </>
             )),
             (athDate = <>{ath_date.usd.slice(0, 10)}</>),
             (atlValue = <>${atl.usd.toLocaleString()}</>),
             (atlPercent = (
               <>
-                {atl_change_percentage.usd.toLocaleString() < 0 ? (
-                  <p className="coinPagePriceRed">
-                    {atl_change_percentage.usd.toFixed(2)}%
-                  </p>
-                ) : (
-                  <p className="coinPagePriceGreen">
-                    +{atl_change_percentage.usd.toFixed(2)}%
-                  </p>
-                )}
+                <p className="coinPagePriceGreen">
+                  +{atl_change_percentage.usd.toFixed(2)}%
+                </p>
               </>
             )),
             (atlDate = <>{atl_date.usd.slice(0, 10)}</>)
@@ -577,3 +433,4 @@ export default function CoinPageInfo({currency, market_cap,fully_diluted_valuati
     </div>
   );
 }
+
