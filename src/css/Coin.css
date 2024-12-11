@@ -1,0 +1,229 @@
+.coin__section {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom:1em;
+}
+  
+.coin {
+  background-color: gray;
+  border: 1px solid gray;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:0;
+  padding: 1em;
+  width:80%;
+
+}
+.firstSection{
+  display: flex;
+  flex-direction: row;
+}
+.coinImg{
+  width:50px;
+
+}
+.coinBtn{
+  background: radial-gradient(at 18% 99%,var(--orange) 0px, transparent 50%) repeat scroll 0% 0%, 
+                radial-gradient(at 97% 8%, var(--blue) 0px, transparent 50%) repeat scroll 0% 0%, 
+                radial-gradient(at 79% 82%, var(--blue) 0px, transparent 50%) repeat scroll 0% 0%,
+                radial-gradient(at 96% 10%, var(--blue) 0px, transparent 50%) repeat scroll 0% 0%,    
+                radial-gradient(at 42% 20%, var(--pink) 0px, transparent 50%) repeat scroll 0% 0%,
+                radial-gradient(at 4% 49%,var(--pink)  0px, transparent 50%) repeat scroll 0% 0%, rgba(0, 0, 0, 0) radial-gradient(at 57% 33%, rgb(218, 83, 228) 0px, var(--pink) 50%) repeat scroll 0% 0%;
+  border: none;
+  border-radius: 5em;
+  padding: 1em;
+}
+/*
+.coinData {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  padding:1.5em 2em;
+  width: 100%;
+}
+.coin {
+  align-items: center;
+  display: flex;
+}
+.coin h1 {
+  color: white;
+  font-size: 18px;
+  margin-left: 1.5em;
+  text-align: left;
+  width: 150px;
+}
+.coin img {
+  height: 50px;
+  margin-right: 1em;
+  width: 50px;
+}
+.coinSymbol {
+  color: white;
+  font-size: 16px;
+  margin-left: 0.5em;
+  margin-right: 2em;
+  text-align: left;
+  text-transform: uppercase;
+  width: 50px;
+}
+.coinPrice {
+  color: white;
+  font-size: 16px;
+  margin-left: 1em;
+  text-align: left;
+  width: 100px;
+}
+.coinVolume {
+  color: white;
+  font-size: 16px;
+  margin-left: 2em;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.coinData {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  width: 100%;
+}
+
+.coinPrice {
+  width: 110px;
+}
+
+.coinVolume {
+  width: 155px;
+}
+.priceChange {
+  font-size: 16px;
+  text-align: right;
+  width: 90px;
+}
+
+.red {
+  color: #ef3850;
+  text-shadow: #ef3850 0 0 1em;
+}
+
+.green {
+  color: #4bd74b;
+  text-shadow: #4bd74b 0 0 1em;
+}
+
+.coin button {
+  background-image: linear-gradient(180deg, #FC5CB2, #4702B1);
+  border: none;
+  border-radius: 0.8em;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  height: 30px;
+  margin-left: 1.5em;
+  padding: 0px 0.8em 0px 0.8em;
+  width: 100px;
+}
+
+.coin button:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.2s;
+}
+
+@media(max-width: 970px){
+  .coin__container {
+  width: 700px;
+}
+.coin__row {
+  width: 700px;
+}
+.coin h1 {
+  font-size: 15px;
+  width: 100px;
+}
+.coin img {
+  height: 30px;
+  margin-right: 1em;
+  width: 30px;
+}
+.coinSymbol {
+  font-size: 13px;
+  width: 30px;
+}
+.coinPrice {
+  font-size: 13px;
+  margin-left:0;
+  width: 80px;
+}
+
+.coinVolume {
+  font-size: 13px;
+  margin-right: 0em;
+  width: 80px;
+}
+
+.coin button {
+  margin-left: 4.5em;
+}
+}
+
+
+@media(max-width: 740px){
+  .coin__container {
+  width: 100%;
+}
+.coin__row {
+  width: 100%;
+}
+.coin {
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+.coin h1 {
+  font-size: 21px;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  width: 100%;
+}
+.coin img {
+  height: 55px;
+  margin-right:0;
+  position: absolute;
+  right:0;
+  width: 55px;
+}
+.coinSymbol {
+  font-size: 16px;
+  margin-bottom: 0.3em;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+.coinPrice {
+  font-size: 16px;
+  margin-bottom: 0.3em;
+  margin-left:0;
+  width: 100%;
+}
+.priceChange {
+  font-size: 16px;
+  margin-bottom: 0.3em;
+  text-align: left;
+  width: 100%;
+}
+.coinVolume {
+  font-size: 16px;
+  margin-bottom: 0.8em;
+  margin-left: 0;
+  width: 100%;
+}
+.coin button {
+  margin: 0;
+  width: 100%;
+}
+}
