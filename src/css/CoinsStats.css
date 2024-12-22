@@ -184,6 +184,7 @@
     .secondTitle {
         font-size: 40px;
     }
+    
     .scrollNext {
         padding: 0.9rem 0;
     }
@@ -193,34 +194,42 @@
     .bckgr {
         background: linear-gradient(30deg in hsl shorter hue, var(--black) 75%, var(--blue), var(--orange));
     }
+    
     .secondTitle__section{
         height: 100%;
         padding-left: 0;
         padding-top: 8%;
     }
+    
     .mobilePage {
         height: 100%;
         position: relative;
     }
+    
     .secondTitle {
         font-size: 25px;
         text-align: center;
     }
+    
     .subTitle {
         padding: 0 4rem;
         text-align: center;
         width: auto;
     }
+    
     .inputSearch__section {
         margin: 2.5rem auto;
     }
+    
     .inputSearch {
         margin-top: 0;
         width: 330px;
     }
+    
     .scrollNext__section {
         display: none;
     }
+    
     .cryptoSection {
         border: 1px solid gray;
         margin: 1rem auto 4rem;
@@ -233,6 +242,7 @@
     .subTitle {
         font-size: 13px;
     }
+    
     .cryptoSection {
         width: 510px;
     }
@@ -242,13 +252,16 @@
     .secondTitle__section{
         padding-top: 3%;
     }
+    
     .secondTitle {
         font-size: 30px;
     }
+    
     .cryptoSection {
         padding-top: 0;
         width: 545px;
     }
+    
     .legendRow__section {
         align-items: center;
         display: flex;
@@ -258,6 +271,7 @@
         padding: 1.5rem 4rem 0;
         width: 450px;
     }
+    
     .legendRow {
         display: grid;
         grid-template-columns: 5% 30% 20% 20% 20%;
@@ -265,14 +279,17 @@
         padding-bottom: 1.2rem;
         width: 100%;
     }
+    
     .legendFirst, 
     .legendSecond {
         text-align: left;
     }
+    
     .legendThird, 
     .legendFourth {
         text-align: right;
     }
+    
     .legendGraph {
         display: none;
     }
@@ -288,9 +305,11 @@
     .cryptoSection {
         width: 660px;
     }
+    
     .legendRow__section {
         width: 550px;
     }
+    
     .legendRow {
         max-width: 550px;
     }
@@ -300,13 +319,16 @@
     .cryptoSection {
         width: 820px;
     }
+    
     .legendRow__section {
         width: 700px;
     }
+    
     .legendRow {
         grid-template-columns: 5% 30% 20% 15% 20% 10%;
         max-width: 700px;
     }
+    
     .legendGraph {
         display: block;
         margin-right: 2em;
@@ -318,6 +340,7 @@
     .secondTitle {
         font-size: 40px;
     }
+    
     .subTitle {
         font-size: 16px;
     }
@@ -325,14 +348,17 @@
 
 @media (min-width: 1050px) {
     .inputSearch__section {
-        margin: 3rem auto;
+        margin: 2rem auto;
     }
+    
     .cryptoSection {
         width: 1010px;
     }
+    
     .legendRow__section {
         width: 900px;
     }
+    
     .legendRow {
         max-width: 900px;
     }
@@ -347,5 +373,16 @@
 @media (min-width: 1300px) {
     .subTitle {
         padding: 0 16rem;
+    }
+
+    .legendRow__section {
+        width: 1100px;
+    }
+    .legendRow {
+        max-width: 1000px;
+    }
+
+    .cryptoSection {
+        width: 1200px;
     }
 }
