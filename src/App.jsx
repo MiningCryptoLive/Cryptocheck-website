@@ -1,7 +1,8 @@
 import { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import CoinPage from "./routes/CoinPage";
 import CoinsStats from "./routes/CoinsStats.jsx";
+import Error from "./components/Error.jsx";
 import Footer from "./components/Footer.jsx";
 import Title from "./components/Title.jsx";
 
@@ -24,6 +25,7 @@ export default function App() {
         <Routes>
           <Route path="/CoinPage/:id" element={<CoinPage />} />
           <Route path="/" element={<CoinsStats />} />
+          <Route path="*" element={<Error />} />
         </Routes>
       </Router>
       <Footer />
