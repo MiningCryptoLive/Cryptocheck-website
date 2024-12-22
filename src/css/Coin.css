@@ -398,3 +398,10 @@
         width: 120px;
     }
 }
+
+@media (min-width: 1300px) {
+    .coin__section {
+        padding: 1rem 2.5rem;
+        width: 1000px; 
+    }
+}
