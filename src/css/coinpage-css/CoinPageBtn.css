@@ -49,3 +49,9 @@
         font-size: 0.875rem;
     }
 }
+
+@media (min-width: 1050px) {
+    .coinPageBtnSection {
+        margin-bottom: 1rem;
+    }
+}
