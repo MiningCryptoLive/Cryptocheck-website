@@ -42,7 +42,6 @@ CryptoCheck is a powerful cryptocurrency tracking tool that provides real-time p
 
 <div>
   <img src="src/assets/readme/readme2.png" alt="Screenshot of the CryptoCheck 2" width="800">
-  <img src="src/assets/readme/readme3.png" alt="Screenshot of the CryptoCheck 3" width="800">
   <img src="src/assets/readme/readme4.png" alt="Screenshot of the CryptoCheck 4" width="800">
 </div>
 
