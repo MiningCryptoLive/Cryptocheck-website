@@ -62,8 +62,6 @@ export default function CoinsStats({ theme, setTheme }) {
     return <Error/>;
   }
 
-  console.log(favoriteCoins);
-
   return (
     <>
       <div className="bckgr"></div>
