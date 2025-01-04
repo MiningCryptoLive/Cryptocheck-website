@@ -126,7 +126,7 @@ export default function CoinPageMenu({setCurrency}) {
               </button>
             </li>
             <li>
-              <button className="currenceBtn" onClick={() => setCurrency("ZŁ")}>
+              <button className="currenceBtn" onClick={() => setCurrency("PLN")}>
                 <img className="flagIcon" src={ZŁ} alt="Poland flag icon" />
                 ZŁ
               </button>
