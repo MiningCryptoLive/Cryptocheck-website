@@ -38,6 +38,7 @@
 
 @media (min-width: 768px) {
     .coinPage{
+        border-top: none;
         padding-bottom: 4%;
     }
 
