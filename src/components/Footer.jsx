@@ -5,13 +5,13 @@ export default function Footer() {
     <footer>
       <div>
         <p>
-          API from
+          Data Provided By: 
           <a className="footerLink" href="https://www.coingecko.com/">
             Coingecko
           </a>
         </p>
         <p>
-          Designed and Coded by<a className="footerLink" href="#">Laura Głąb</a>
+          My Github <a className="footerLink" href="https://github.com/MiningCryptoLive">MiningCryptoLive</a>
         </p>
       </div>
     </footer>
