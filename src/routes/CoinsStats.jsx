@@ -82,12 +82,28 @@ export default function CoinsStats({ theme, setTheme }) {
           </div>
         </div>
       </div>
+      <div className="scrollNext__section">
+            <button
+              className="scrollNext"
+              onClick={() => {
+                const element = document.getElementById("nextPart");
+                element?.scrollIntoView({
+                  behavior: "smooth",
+                  margin: "1em",
+                });
+              }}
+            >
+              Next
+            </button>
+          </div>
+        </div>
+      </div>
       <div className="coinsStatsSection">
         <div className="inputSearch__section" id="nextPart">
           <input
             className="inputSearch"
             type="text"
-            placeholder="Search coins..."
+            placeholder="Search the coin..."
             onChange={searchCoin}
           />
         </div>
